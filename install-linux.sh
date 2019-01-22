@@ -17,6 +17,7 @@ cd uWebSockets
 git checkout e94b6e1
 mkdir build
 cd build
+# cmake ..
 cmake ..
 make 
 sudo make install
