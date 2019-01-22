@@ -92,7 +92,7 @@ void KalmanFilter::UpdateShared(const VectorXd& y) {
 	long x_size = x_.size();
 	MatrixXd I = MatrixXd::Identity(x_size, x_size);
 
-	P_ = (I - K * H_) *P_;
+	P_ -= K * H_ * P_;
 
 
 	}

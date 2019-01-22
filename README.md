@@ -4,9 +4,7 @@ Self-Driving Car Engineer Nanodegree Program
 In this project I  utilize a kalman filter to estimate the state of a moving object of interest with noisy lidar and radar measurements. Passing the project requires obtaining RMSE values that are lower than the tolerance outlined in the project rubric. 
 
 You can find my sorce code through `kalman_filter.cpp`,`FusionEKF.cpp` and `tools.cpp`.
-Here is running results, as we can see the program get  the trajectory in a certain accuracy level. However,  it is still a little off to the required `RMSE <= [.11, .11, 0.52, 0.52]`. I was trying to set different initial values of process and measurement noise but it seems doesn't work well. 
-
-![](kalman_filter_result.gif)
+Here is running results, as we can see the program get  the trajectory in a certain accuracy level- `RMSE = [.0973, .0855, 0.4513, 0.4399]`. which is lower than  required `RMSE <= [.11, .11, 0.52, 0.52]`. 
 
 
 
